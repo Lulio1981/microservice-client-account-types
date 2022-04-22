@@ -9,6 +9,7 @@ import bootcamp.microservices.app.clientaccounttypes.constants.Constants;
 import bootcamp.microservices.app.clientaccounttypes.documents.ClientAccountType;
 import bootcamp.microservices.app.clientaccounttypes.exceptions.customs.CustomNotFoundException;
 import bootcamp.microservices.app.clientaccounttypes.repository.ClientAccountTypeRepository;
+import lombok.AllArgsConstructor;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
